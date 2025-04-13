@@ -1,0 +1,12 @@
+{
+    "name": "hcl-project",
+    "version": "1.0.0",
+    "main": "appointment-service.js",
+    "scripts": {
+        "start": "node appointment-service.js"
+    },
+    "dependencies": {
+        "express": "^5.1.0"
+    }
+}
+  
