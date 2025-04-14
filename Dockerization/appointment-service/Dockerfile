@@ -13,4 +13,4 @@ RUN npm run test
 FROM node:alpine AS release
 WORKDIR /app
 COPY --from=dependencies /app /app
-CMD ["npm", "start"]
+CMD ["node", "appointment-service.js"]
